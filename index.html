@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothes Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Розовые фоновые пятна -->
+  <div class="bg-shape shape-top-right"></div>
+  <div class="bg-shape shape-middle-left"></div>
+  <div class="bg-shape shape-bottom-left"></div>
+
+  <div class="container">
+    <!-- Шапка -->
+    <header class="header">
+      <div class="logo">Your Logo</div>
+      
+      <nav class="nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Products</a>
+        <a href="#" class="nav-link">About</a>
+      </nav>
+
+      <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <!-- Главный блок -->
+    <main class="hero">
+      <div class="hero-content">
+        <h1 class="title">
+          Clothes <br>
+          <span>Store</span>
+        </h1>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+        </p>
+        <button class="btn">Get Started</button>
+      </div>
+
+      <!-- 3D Домик-Магазин -->
+      <div class="hero-image">
+        <svg viewBox="0 0 500 500" class="store-svg">
+          <!-- Тень -->
+          <ellipse cx="250" cy="380" rx="130" ry="30" fill="#e2e8f0" opacity="0.6"/>
+
+          <!-- Стены -->
+          <polygon points="170,270 260,320 260,220 170,170" fill="#e2e8f0"/>
+          <polygon points="260,320 350,270 350,170 260,220" fill="#94a3b8"/>
+          
+          <!-- Окна и дверь -->
+          <polygon points="185,245 225,267 225,215 185,193" fill="#1e293b"/>
+          <polygon points="188,243 222,262 222,217 188,197" fill="#38bdf8"/>
+          <polygon points="232,271 250,281 250,229 232,219" fill="#1e293b"/>
+          <polygon points="234,269 248,277 248,231 234,221" fill="#7dd3fc"/>
+
+          <!-- Крыша -->
+          <polygon points="150,170 260,230 370,170 260,110" fill="#f43f5e"/>
+          <polygon points="150,170 260,230 260,210 150,150" fill="#e11d48"/>
+          <polygon points="260,230 370,170 370,150 260,210" fill="#be123c"/>
+
+          <!-- Полосатый навес -->
+          <polygon points="145,180 260,245 270,235 155,170" fill="#f43f5e"/>
+          <polygon points="260,245 375,180 365,170 250,235" fill="#e11d48"/>
+
+          <path d="M145,180 L162,190 L167,185 L150,175 Z" fill="#ffffff"/>
+          <path d="M179,200 L196,210 L201,205 L184,195 Z" fill="#ffffff"/>
+          <path d="M213,220 L230,230 L235,225 L218,215 Z" fill="#ffffff"/>
+          <path d="M247,240 L260,245 L265,240 L252,235 Z" fill="#ffffff"/>
+          <path d="M277,235 L294,225 L289,220 L272,230 Z" fill="#ffffff"/>
+          <path d="M311,215 L328,205 L323,200 L306,210 Z" fill="#ffffff"/>
+          <path d="M345,195 L362,185 L357,180 L340,190 Z" fill="#ffffff"/>
+
+          <!-- Вывеска SHOP -->
+          <polygon points="210,140 260,167 310,140 260,113" fill="#fb7185"/>
+          <polygon points="210,140 260,167 260,182 210,155" fill="#e11d48"/>
+          <polygon points="260,167 310,140 310,155 260,182" fill="#be123c"/>
+        </svg>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>
